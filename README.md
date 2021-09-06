@@ -131,6 +131,24 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/convert`][@stdlib/array/convert]: convert an array to an array of a different data type.
+-   [`@stdlib/array/convert-same`][@stdlib/array/convert-same]: convert an array to the same data type as a second input array.
+-   [`@stdlib/array/dtypes`][@stdlib/array/dtypes]: list of array data types.
+-   [`@stdlib/array/same-kind-casts`][@stdlib/array/same-kind-casts]: return a list of array data types to which a provided array data type can be safely cast or cast within the same kind.
+-   [`@stdlib/ndarray/safe-casts`][@stdlib/ndarray/safe-casts]: return a list of ndarray data types to which a provided ndarray data type can be safely cast.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -188,7 +206,19 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-safe-casts/main/LICENSE
 
+<!-- <related-links> -->
+
+[@stdlib/array/convert]: https://github.com/stdlib-js/array-convert
+
+[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same
+
 [@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+
+[@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts
+
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts
+
+<!-- </related-links> -->
 
 </section>
 
