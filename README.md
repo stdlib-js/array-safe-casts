@@ -20,7 +20,7 @@ limitations under the License.
 
 # Safe Casts
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return a list of array [data types][@stdlib/array/dtypes] to which a provided array [data type][@stdlib/array/dtypes] can be safely cast.
 
@@ -194,8 +194,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-safe-casts/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-safe-casts?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/array-safe-casts.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/array-safe-casts/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
