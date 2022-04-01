@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/array-safe-casts",
+  "version": "0.0.0",
+  "description": "Return a list of array data types to which a provided array data type can be safely cast.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-safe-casts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "array",
+    "casting",
+    "cast",
+    "rules",
+    "promotion",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
