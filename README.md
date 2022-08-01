@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-safe-casts
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var safeCasts = require( '@stdlib/array-safe-casts' );
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@deno/mod.js';
 ```
 
 #### safeCasts( \[dtype] )
@@ -110,8 +94,8 @@ var out = safeCasts( 'foo' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var dtypes = require( '@stdlib/array-dtypes' );
-var safeCasts = require( '@stdlib/array-safe-casts' );
+import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@deno/mod.js';
 
 var DTYPES;
 var list;
@@ -166,7 +150,7 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -228,15 +212,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/convert]: https://github.com/stdlib-js/array-convert
+[@stdlib/array/convert]: https://github.com/stdlib-js/array-convert/tree/deno
 
-[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same
+[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same/tree/deno
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/deno
 
-[@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts
+[@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts/tree/deno
 
-[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts/tree/deno
 
 <!-- </related-links> -->
 
