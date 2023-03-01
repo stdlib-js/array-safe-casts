@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-safe-casts
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-safeCasts = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var safeCasts = require( 'path/to/vendor/umd/array-safe-casts/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.safeCasts;
-})();
-</script>
+var safeCasts = require( '@stdlib/array-safe-casts' );
 ```
 
 #### safeCasts( \[dtype] )
@@ -117,14 +109,9 @@ var out = safeCasts( 'foo' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/array-dtypes' );
+var safeCasts = require( '@stdlib/array-safe-casts' );
 
 var DTYPES;
 var list;
@@ -138,11 +125,6 @@ for ( i = 0; i < DTYPES.length; i++ ) {
     list = safeCasts( DTYPES[ i ] );
     console.log( '%s: %s', DTYPES[ i ], list.join( ', ' ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -165,11 +147,11 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/array/convert`][@stdlib/array/convert]</span><span class="delimiter">: </span><span class="description">convert an array to an array of a different data type.</span>
--   <span class="package-name">[`@stdlib/array/convert-same`][@stdlib/array/convert-same]</span><span class="delimiter">: </span><span class="description">convert an array to the same data type as a second input array.</span>
--   <span class="package-name">[`@stdlib/array/dtypes`][@stdlib/array/dtypes]</span><span class="delimiter">: </span><span class="description">list of array data types.</span>
--   <span class="package-name">[`@stdlib/array/same-kind-casts`][@stdlib/array/same-kind-casts]</span><span class="delimiter">: </span><span class="description">return a list of array data types to which a provided array data type can be safely cast or cast within the same kind.</span>
--   <span class="package-name">[`@stdlib/ndarray/safe-casts`][@stdlib/ndarray/safe-casts]</span><span class="delimiter">: </span><span class="description">return a list of ndarray data types to which a provided ndarray data type can be safely cast.</span>
+-   <span class="package-name">[`@stdlib/array-convert`][@stdlib/array/convert]</span><span class="delimiter">: </span><span class="description">convert an array to an array of a different data type.</span>
+-   <span class="package-name">[`@stdlib/array-convert-same`][@stdlib/array/convert-same]</span><span class="delimiter">: </span><span class="description">convert an array to the same data type as a second input array.</span>
+-   <span class="package-name">[`@stdlib/array-dtypes`][@stdlib/array/dtypes]</span><span class="delimiter">: </span><span class="description">list of array data types.</span>
+-   <span class="package-name">[`@stdlib/array-same-kind-casts`][@stdlib/array/same-kind-casts]</span><span class="delimiter">: </span><span class="description">return a list of array data types to which a provided array data type can be safely cast or cast within the same kind.</span>
+-   <span class="package-name">[`@stdlib/ndarray-safe-casts`][@stdlib/ndarray/safe-casts]</span><span class="delimiter">: </span><span class="description">return a list of ndarray data types to which a provided ndarray data type can be safely cast.</span>
 
 </section>
 
@@ -246,15 +228,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/convert]: https://github.com/stdlib-js/array-convert/tree/umd
+[@stdlib/array/convert]: https://github.com/stdlib-js/array-convert
 
-[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same/tree/umd
+[@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/umd
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
-[@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts/tree/umd
+[@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts
 
-[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts/tree/umd
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts
 
 <!-- </related-links> -->
 
