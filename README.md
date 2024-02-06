@@ -126,14 +126,12 @@ var out = safeCasts( 'foo' );
 var dtypes = require( '@stdlib/array-dtypes' );
 var safeCasts = require( '@stdlib/array-safe-casts' );
 
-var DTYPES;
-var list;
-var i;
-
 // Get the list of supported array data types:
-DTYPES = dtypes();
+var DTYPES = dtypes();
 
 // Print the list of array data types to which a data type can be safely cast...
+var list;
+var i;
 for ( i = 0; i < DTYPES.length; i++ ) {
     list = safeCasts( DTYPES[ i ] );
     console.log( '%s: %s', DTYPES[ i ], list.join( ', ' ) );
@@ -242,13 +240,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-safe-casts/main/LICENSE
 
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+
 <!-- <related-links> -->
 
 [@stdlib/array/convert]: https://github.com/stdlib-js/array-convert
 
 [@stdlib/array/convert-same]: https://github.com/stdlib-js/array-convert-same
-
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
 [@stdlib/array/same-kind-casts]: https://github.com/stdlib-js/array-same-kind-casts
 
