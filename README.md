@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-safe-casts/tags). For example,
+
+```javascript
 import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@v0.2.0-esm/index.mjs';
 ```
 
@@ -111,7 +116,7 @@ var out = safeCasts( 'foo' );
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@v0.2.0-esm/index.mjs';
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@esm/index.mjs';
 
 // Get the list of supported array data types:
 var DTYPES = dtypes();
