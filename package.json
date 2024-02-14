@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-safe-casts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Return a list of array data types to which a provided array data type can be safely cast.",
   "license": "Apache-2.0",
   "author": {
@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.1.1",
-    "@stdlib/strided-base-dtype-resolve-str": "^0.1.0",
+    "@stdlib/strided-base-dtype-resolve-str": "^0.2.0",
     "@stdlib/types": "^0.3.1",
-    "@stdlib/utils-keys": "^0.1.0"
+    "@stdlib/utils-keys": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/array-dtypes": "^0.1.0",
@@ -48,7 +48,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
