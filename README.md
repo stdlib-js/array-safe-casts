@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@esm/index.mjs';
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@v0.3.0-esm/index.mjs';
 ```
 
 #### safeCasts( \[dtype] )
@@ -111,7 +111,7 @@ var out = safeCasts( 'foo' );
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@esm/index.mjs';
-import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@esm/index.mjs';
+import safeCasts from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-safe-casts@v0.3.0-esm/index.mjs';
 
 // Get the list of supported array data types:
 var DTYPES = dtypes();
