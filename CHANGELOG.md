@@ -2,19 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.3.0">
+<section class="release" id="unreleased">
 
-## 0.3.0 (2024-07-28)
-
-<section class="features">
-
-### Features
-
--   [`84dcb69`](https://github.com/stdlib-js/stdlib/commit/84dcb6972ff346a53f596de5ccc490489c9425ad) - add boolean dtype support in `array/safe-casts` [(#2353)](https://github.com/stdlib-js/stdlib/pull/2353)
-
-</section>
-
-<!-- /.features -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -22,8 +12,7 @@
 
 <details>
 
--   [`84dcb69`](https://github.com/stdlib-js/stdlib/commit/84dcb6972ff346a53f596de5ccc490489c9425ad) - **feat:** add boolean dtype support in `array/safe-casts` [(#2353)](https://github.com/stdlib-js/stdlib/pull/2353) _(by Jaysukh Makvana, Athan Reines)_
--   [`a3fbf67`](https://github.com/stdlib-js/stdlib/commit/a3fbf67720b3d1963b27c1097bd8144397ac0ec1) - **docs:** update related packages sections [(#1857)](https://github.com/stdlib-js/stdlib/pull/1857) _(by stdlib-bot)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -35,14 +24,23 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Jaysukh Makvana
 
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.3.0">
+
+## 0.3.0 (2024-07-28)
+
+No changes reported for this release.
 
 </section>
 
@@ -62,41 +60,7 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="features">
-
-### Features
-
--   [`a8643cd`](https://github.com/stdlib-js/stdlib/commit/a8643cd81faabbf121f779a2dc6eedc8e0cb1bd7) - support non-string dtype values
-
-</section>
-
-<!-- /.features -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`a8643cd`](https://github.com/stdlib-js/stdlib/commit/a8643cd81faabbf121f779a2dc6eedc8e0cb1bd7) - **feat:** support non-string dtype values _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -106,54 +70,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-23)
 
-<section class="features">
-
-### Features
-
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
