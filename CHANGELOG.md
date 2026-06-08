@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-07)
+## Unreleased (2026-06-08)
+
+<section class="features">
+
+### Features
+
+-   [`94be3e9`](https://github.com/stdlib-js/stdlib/commit/94be3e9010f0da86f3a05c016a78bf6a68f4cf8a) - add float16 datatype support in `array/safe-casts` [(#12701)](https://github.com/stdlib-js/stdlib/pull/12701)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`94be3e9`](https://github.com/stdlib-js/stdlib/commit/94be3e9010f0da86f3a05c016a78bf6a68f4cf8a) - **feat:** add float16 datatype support in `array/safe-casts` [(#12701)](https://github.com/stdlib-js/stdlib/pull/12701) _(by Gururaj Gurram)_
 -   [`81e87d4`](https://github.com/stdlib-js/stdlib/commit/81e87d4457c65ba7481c7ab3701d2ee97d50c052) - **bench:** refactor to use string interpolation in `array` [(#11413)](https://github.com/stdlib-js/stdlib/pull/11413) _(by Karan Anand)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Gururaj Gurram
 -   Karan Anand
 
 </section>
